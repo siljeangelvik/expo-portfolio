@@ -12,7 +12,6 @@
 - [React Native]()
 - [Expo]()
 
-
 ## Getting Started
 
 ### Installing
@@ -50,9 +49,13 @@ Click on the badges below to go to my profiles or contact me via email.
 - [React Router v5 NativeRouter](https://v5.reactrouter.com/native/api/NativeRouter)
 - [CodePen: Neumorphism Responsive Navbar](https://codepen.io/siljeangelvik/pen/YzMmJVb?editors=1100)
 - [CodePen: Neumorphism Testing](https://codepen.io/siljeangelvik/pen/GRWrxJR?editors=1100)
+- [CodePen: Neumorphism Color Palette](https://codepen.io/siljeangelvik/pen/ZEZgPxZ?editors=1100)
 - [Top 10 React Native Frameworks](https://www.konstantinfo.com/blog/react-native-frameworks/)
 - [Video: Neumorphism in React Native](https://www.youtube.com/watch?v=GFssmWUhwww)
-- 
+- [Color Inverter](https://colorinverter.imageonline.co/)
+- [Expo: Styling a React Native Button](https://docs.expo.dev/ui-programming/react-native-styling-buttons/)
+- [CodePen: Dark Mode Neumorphism](https://codepen.io/siljeangelvik/pen/NWmQJoL?editors=0100)
+- [CodePen: Light Mode Neumorphism](https://codepen.io/siljeangelvik/pen/qBwevzq?editors=1100)
 
 
 **Dim Gray**  
@@ -67,3 +70,15 @@ Click on the badges below to go to my profiles or contact me via email.
 #EBECF0
 **Tangelo**  
 #FF4500   
+
+
+**Square Button:**  
+width = 24  
+height = 24  
+b-radius = 5   
+x = -1  
+y = -1  
+blur = 3  
+spread = 0  
+color = #ffffff  
+opacity = 100%

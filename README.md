@@ -65,6 +65,7 @@ Click on the badges below to go to my profiles or contact me via email.
 - [React Router v5 NativeRouter](https://v5.reactrouter.com/native/api/NativeRouter)
 - [Top 10 React Native Frameworks](https://www.konstantinfo.com/blog/react-native-frameworks/)
 - [Expo: Styling a React Native Button](https://docs.expo.dev/ui-programming/react-native-styling-buttons/)
+- [Expo: SystemUI](https://docs.expo.dev/versions/latest/sdk/system-ui/#installation)
 
 
 **Dim Gray**  

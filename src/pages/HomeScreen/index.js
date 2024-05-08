@@ -12,17 +12,11 @@ const HomeScreen = () => {
 
     return (
         <View>
+            <Text style={{ fontFamily: 'Inter-Black', fontSize: 30 }}>Inter Black</Text>
+            <Text style={{ fontFamily: 'Inter-Black', fontSize: 16 }}>Inter Black</Text>
             <Text style={HeaderStyling.title}>Home Screen</Text>
             {/*<Text style={HeaderStyling.paragraph}>Hello, my name is...</Text>*/}
             {/*<Text style={HeaderStyling.heading}>Avena Dev</Text>*/}
-
-
-
-
-
-
-
-
 
             {/*<TouchableOpacity*/}
             {/*    onPress={() => setLightMode(!isLightMode)}*/}

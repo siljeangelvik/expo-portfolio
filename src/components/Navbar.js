@@ -1,12 +1,16 @@
 import React from 'react';
 import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
+import Logo from '../components/Logo';
 
 const Navbar = () => {
     const navigation = useNavigation();
 
     return (
         <View style={styles.navbar}>
+            <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.navItem}>
+                <Logo/>
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.navItem}>
                 <Text style={styles.navText}>Home</Text>
             </TouchableOpacity>
@@ -35,9 +39,9 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.6,
         shadowRadius: 8,
         elevation: 5,
-        paddingHorizontal: 20,
+        paddingHorizontal: 10,
         paddingVertical: 10,
-        marginTop: 60, // Adjust the top margin to create space between navbar and top of screen
+        marginTop: 100, // Adjust the top margin to create space between navbar and top of screen
     },
     navItem: {
         flex: 1,

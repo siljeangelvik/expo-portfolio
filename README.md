@@ -33,10 +33,26 @@ Click on the badges below to go to my profiles or contact me via email.
 ## Resources
 
 #### Design
+- [Logo: Unicode U+1D54A](https://www.compart.com/en/unicode/U+1D54A)
 - [Neumorphism.io](https://neumorphism.io/#e0e0e0)
 - [Neumorphism CSS Generator](https://hype4.academy/tools/neumorphism-generator)
 - [Palette: Coolors](https://coolors.co/palette/696969-a3b1c6-babecc-e0e5ec-ebecf0-ff4500)
+
+#### Videos
 - [Video: Build and Deploy a React Native App 2023](https://www.youtube.com/watch?v=mJ3bGvy0WAY)
+- [Video: Neumorphism in React Native](https://www.youtube.com/watch?v=GFssmWUhwww)
+- [Video: How to Build an App Splash Screen](https://docs.expo.dev/develop/user-interface/splash-screen/)
+
+#### Tools
+- [CodePen: Neumorphism Responsive Navbar](https://codepen.io/siljeangelvik/pen/YzMmJVb?editors=1100)
+- [CodePen: Neumorphism Testing](https://codepen.io/siljeangelvik/pen/GRWrxJR?editors=1100)
+- [CodePen: Neumorphism Color Palette](https://codepen.io/siljeangelvik/pen/ZEZgPxZ?editors=1100)
+- [CodePen: Dark Mode Neumorphism](https://codepen.io/siljeangelvik/pen/NWmQJoL?editors=0100)
+- [CodePen: Light Mode Neumorphism](https://codepen.io/siljeangelvik/pen/qBwevzq?editors=1100)
+- [Color Inverter](https://colorinverter.imageonline.co/)
+
+
+#### Docs
 - [Create React App: Add Stylesheets](https://create-react-app.dev/docs/adding-a-stylesheet/)
 - [React Native: Appearance](https://reactnative.dev/docs/appearance)
 - [React Navigation](https://reactnavigation.org/docs/hello-react-navigation)
@@ -47,15 +63,8 @@ Click on the badges below to go to my profiles or contact me via email.
 - [React Native Hook useColorScheme](https://reactnative.dev/docs/usecolorscheme)
 - [React Router](https://reactrouter.com/en/main/route/route)
 - [React Router v5 NativeRouter](https://v5.reactrouter.com/native/api/NativeRouter)
-- [CodePen: Neumorphism Responsive Navbar](https://codepen.io/siljeangelvik/pen/YzMmJVb?editors=1100)
-- [CodePen: Neumorphism Testing](https://codepen.io/siljeangelvik/pen/GRWrxJR?editors=1100)
-- [CodePen: Neumorphism Color Palette](https://codepen.io/siljeangelvik/pen/ZEZgPxZ?editors=1100)
 - [Top 10 React Native Frameworks](https://www.konstantinfo.com/blog/react-native-frameworks/)
-- [Video: Neumorphism in React Native](https://www.youtube.com/watch?v=GFssmWUhwww)
-- [Color Inverter](https://colorinverter.imageonline.co/)
 - [Expo: Styling a React Native Button](https://docs.expo.dev/ui-programming/react-native-styling-buttons/)
-- [CodePen: Dark Mode Neumorphism](https://codepen.io/siljeangelvik/pen/NWmQJoL?editors=0100)
-- [CodePen: Light Mode Neumorphism](https://codepen.io/siljeangelvik/pen/qBwevzq?editors=1100)
 
 
 **Dim Gray**  

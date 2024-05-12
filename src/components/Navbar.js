@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         elevation: 5,
         paddingHorizontal: 10,
         paddingVertical: 10,
-        marginTop: 100, // Adjust the top margin to create space between navbar and top of screen
+        marginTop: 'auto', // 100 // Adjust the top margin to create space between navbar and top of screen
     },
     navItem: {
         flex: 1,

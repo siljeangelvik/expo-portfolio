@@ -59,6 +59,7 @@ Click on the badges below to go to my profiles or contact me via email.
 - [React Native Setting Up](https://reactnative.dev/docs/environment-setup)
 - [Reddit Neumorphism](https://www.reddit.com/r/reactnative/comments/10fxvsl/how_can_we_create_neumorphism_design_in_react/)
 - [GitHub react-native-neumorphism](https://github.com/shaneboyar/react-native-neumorphic)
+- [GitHub: fontenehuset ahead](https://github.com/Fontenehuset-Bergen/fontenehuset-new-app/tree/siljea-ahead/src/pages/ahead/aheadComponents)
 - [React Native Color Reference](https://reactnative.dev/docs/colors)
 - [React Native Hook useColorScheme](https://reactnative.dev/docs/usecolorscheme)
 - [React Router](https://reactrouter.com/en/main/route/route)
@@ -66,6 +67,13 @@ Click on the badges below to go to my profiles or contact me via email.
 - [Top 10 React Native Frameworks](https://www.konstantinfo.com/blog/react-native-frameworks/)
 - [Expo: Styling a React Native Button](https://docs.expo.dev/ui-programming/react-native-styling-buttons/)
 - [Expo: SystemUI](https://docs.expo.dev/versions/latest/sdk/system-ui/#installation)
+- [Expo: Image](https://docs.expo.dev/versions/latest/sdk/image/#component)
+
+#### Next Reads
+- [Expo: Layout Routes](https://docs.expo.dev/router/layouts/)
+- [Simple React Card](https://reactjsexample.com/simple-react-card/)
+- [Expo: ViewPager](https://docs.expo.dev/versions/latest/sdk/view-pager/)
+- [GitHub: React Native Pager View](https://github.com/callstack/react-native-pager-view)
 
 
 **Dim Gray**  

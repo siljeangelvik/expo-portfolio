@@ -1,15 +1,17 @@
 // src/pages/ProjectsScreen/index.js
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
+import Projects from './components/Projects';
 import HeaderStyling from '../../styling/headerStyling';
 
 const ProjectsScreen = () => {
     return (
-        <View>
-            <Text style={HeaderStyling.title}>Projects Screen</Text>
-            <Text style={HeaderStyling.paragraph}>Hello, my name is...</Text>
-            <Text style={HeaderStyling.heading}>Avena Dev</Text>
-        </View>
+        <ScrollView>
+            <View>
+                <Text style={HeaderStyling.title}>My Projects</Text>
+                <Projects/>
+            </View>
+        </ScrollView>
     );
 }
 

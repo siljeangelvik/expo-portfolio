@@ -8,6 +8,7 @@ const AboutScreen = () => {
             <Text style={HeaderStyling.title}>About Screen</Text>
             <Text style={HeaderStyling.paragraph}>Hello, my name is...</Text>
             <Text style={HeaderStyling.heading}>Avena Dev</Text>
+
         </View>
     );
 }

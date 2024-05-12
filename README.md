@@ -71,6 +71,7 @@ Click on the badges below to go to my profiles or contact me via email.
 - [Expo: Styling a React Native Button](https://docs.expo.dev/ui-programming/react-native-styling-buttons/)
 - [Expo: SystemUI](https://docs.expo.dev/versions/latest/sdk/system-ui/#installation)
 - [Expo: Image](https://docs.expo.dev/versions/latest/sdk/image/#component)
+- [Expo: Publish Websites with Metro](https://docs.expo.dev/distribution/publishing-websites/#hosting-on-third-party-services)
 
 #### Next Reads
 
@@ -81,5 +82,16 @@ Click on the badges below to go to my profiles or contact me via email.
 
 ### Commands
 
-Check what workflow you're using  
+Check what workflow you're using:  
 `npx expo-env-info`
+
+Run the universal export command to compile the project for web:  
+`npx expo export -p web`
+
+Install the Netlify CLI by running the following command:  
+`npm install -g netlify-cli`
+
+**If you modify the __redirects_ file, you must rebuild your project with `npx expo export -p web` to have it safely copied into the dist directory.**
+
+Deploy the web build folder by running the following command:  
+`netlify deploy --dir dist`

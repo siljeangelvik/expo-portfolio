@@ -1,6 +1,6 @@
 # Notes
 
-### Color "Template"
+## Color "Template"
 
 **Dim Gray:** #696969  
 **Powder Blue:** #A3B1C6  
@@ -9,7 +9,35 @@
 **Anti-Flash White:** #EBECF0  
 **Tangelo:** #FF4500
 
-### Button Sizes
+![Colors.png](src%2Fmedia%2FColors.png)
+
+### Primary
+
+> **Dim Gray:** #696969  
+> _Titles_, _Links_, _Highlighted Text_,
+
+> **Anti-Flash White:** #EBECF0
+> _Button Text_,
+
+> **Tangelo:** #FF4500
+> _Button Background_
+
+### Secondary
+
+> **French Gray:** #BABECC
+> _Description_,
+
+> **Dim Gray:** #696969
+> _Button Background_,
+
+> **Anti-Flash White:** #EBECF0
+> _Button Text_,
+
+### Tertiary
+
+### Accent
+
+## Button Sizes
 
 **Square Button:**  
 width = 24  

@@ -1,5 +1,6 @@
 # Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a289529-6728-40d9-a422-3e815cf8b28d/deploy-status)](https://app.netlify.com/sites/avenadev/deploys)
 ![Hello](https://img.shields.io/static/v1?label=project&message=portfolio&color=orange) ![GitHub last commit](https://img.shields.io/github/last-commit/siljeangelvik/expo-portfolio?&color=ff69b4)  
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/siljeangelvik/expo-portfolio?&color=blue) ![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/R4Intellij?&color=blueviolet)
 
@@ -72,6 +73,7 @@ Click on the badges below to go to my profiles or contact me via email.
 - [Expo: SystemUI](https://docs.expo.dev/versions/latest/sdk/system-ui/#installation)
 - [Expo: Image](https://docs.expo.dev/versions/latest/sdk/image/#component)
 - [Expo: Publish Websites with Metro](https://docs.expo.dev/distribution/publishing-websites/#hosting-on-third-party-services)
+- [Netlify: Failed during stage 'building site'](https://answers.netlify.com/t/failed-during-stage-building-site-deploy-directory-dist-does-not-exist/18266/3)
 
 #### Next Reads
 
@@ -91,7 +93,11 @@ Run the universal export command to compile the project for web:
 Install the Netlify CLI by running the following command:  
 `npm install -g netlify-cli`
 
-**If you modify the __redirects_ file, you must rebuild your project with `npx expo export -p web` to have it safely copied into the dist directory.**
+**If you modify the __redirects_ file, you must rebuild your project with `npx expo export -p web` to have it safely
+copied into the dist directory.**
 
 Deploy the web build folder by running the following command:  
 `netlify deploy --dir dist`
+
+If everything looks good on your draft URL, deploy it to your main site URL with the --prod flag.  
+`netlify deploy --prod`

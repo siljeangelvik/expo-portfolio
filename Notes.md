@@ -49,3 +49,14 @@ blur = 3
 spread = 0  
 color = #ffffff  
 opacity = 100%
+
+## Netlify
+
+### Default
+
+**Build command:** expo build:web
+**Publish directory:** web-build
+
+### Changed to
+**Build command:** expo build:web
+**Publish directory:** dist

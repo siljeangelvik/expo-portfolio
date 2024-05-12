@@ -25,12 +25,12 @@ const Card = ({project}) => {
                 <Button
                     title="Website"
                     onPress={() => openUrl(websiteUrl)}
-                    buttonStyle={[styles.button, {backgroundColor: 'orangered'}]}
+                    buttonStyle={styles.button}
                 />
                 <Button
                     title="LinkedIn"
                     onPress={() => openUrl(linkedInUrl)}
-                    buttonStyle={styles.button}
+                    buttonStyle={[styles.button, {backgroundColor: 'orangered'}]}
                 />
             </View>
         </View>
@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
     },
     button: {
         width: '100%',
+        backgroundColor: '#696969'
     },
 });
 

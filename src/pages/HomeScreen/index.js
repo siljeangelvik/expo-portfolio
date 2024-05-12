@@ -10,9 +10,8 @@ const HomeScreen = () => {
     return (
         <ScrollView>
             <View>
-                <Text style={{fontFamily: 'Inter-Black', fontSize: 30}}>Inter Black</Text>
-                <Text style={{fontFamily: 'Inter-Black', fontSize: 16}}>Inter Black</Text>
-                <Text style={HeaderStyling.title}>Home Screen</Text>
+                <Text style={HeaderStyling.title}>Avena Dev</Text>
+                {/*<Text style={[HeaderStyling.title, {fontFamily: 'Inter-Black', fontSize: 30}]}>Avena Dev</Text>*/}
                 {/*<Text style={HeaderStyling.paragraph}>Hello, my name is...</Text>*/}
                 {/*<Text style={HeaderStyling.heading}>Avena Dev</Text>*/}
 

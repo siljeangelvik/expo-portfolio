@@ -1,9 +1,9 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image, Linking, Dimensions} from 'react-native';
-import { Button } from 'react-native-elements';
+import {Button} from 'react-native-elements';
 
-const Card = ({ project }) => {
-    const { title, date, description, imageUrl, githubUrl, websiteUrl, linkedInUrl } = project;
+const Card = ({project}) => {
+    const {title, date, description, imageUrl, githubUrl, websiteUrl, linkedInUrl} = project;
 
     // Function to open a URL in the default browser
     const openUrl = (url) => {
@@ -12,7 +12,7 @@ const Card = ({ project }) => {
 
     return (
         <View style={styles.card}>
-            <Image source={imageUrl} style={styles.image} />
+            <Image source={imageUrl} style={styles.image}/>
             <Text style={styles.title}>{title}</Text>
             <Text style={styles.metadata}>{date}</Text>
             <Text style={styles.description}>{description}</Text>
@@ -25,7 +25,7 @@ const Card = ({ project }) => {
                 <Button
                     title="Website"
                     onPress={() => openUrl(websiteUrl)}
-                    buttonStyle={[styles.button, { backgroundColor: 'orangered' }]}
+                    buttonStyle={[styles.button, {backgroundColor: 'orangered'}]}
                 />
                 <Button
                     title="LinkedIn"
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         elevation: 4, // for Android shadow
         shadowColor: '#000',
         shadowOpacity: 0.2,
-        shadowOffset: { width: 0, height: 2 },
+        shadowOffset: {width: 0, height: 2},
     },
     image: {
         width: '100%',

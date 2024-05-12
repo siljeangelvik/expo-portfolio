@@ -11,7 +11,8 @@ const Footer = () => {
             <TouchableOpacity onPress={() => navigation.navigate('Home')}>
                 <Logo/>
             </TouchableOpacity>
-            <Text style={styles.copyright}>Copyright © 2024 <Text style={styles.savanna}>Savanna.</Text> All Rights Reserved.</Text>
+            <Text style={styles.copyright}>Copyright © 2024 <Text style={styles.savanna}>Savanna.</Text> All Rights
+                Reserved.</Text>
             <TouchableOpacity onPress={() => navigation.navigate('Home')}>
                 <Text>Home</Text>
             </TouchableOpacity>

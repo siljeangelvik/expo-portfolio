@@ -33,17 +33,20 @@ Click on the badges below to go to my profiles or contact me via email.
 ## Resources
 
 #### Design
+
 - [Logo: Unicode U+1D54A](https://www.compart.com/en/unicode/U+1D54A)
 - [Neumorphism.io](https://neumorphism.io/#e0e0e0)
 - [Neumorphism CSS Generator](https://hype4.academy/tools/neumorphism-generator)
 - [Palette: Coolors](https://coolors.co/palette/696969-a3b1c6-babecc-e0e5ec-ebecf0-ff4500)
 
 #### Videos
+
 - [Video: Build and Deploy a React Native App 2023](https://www.youtube.com/watch?v=mJ3bGvy0WAY)
 - [Video: Neumorphism in React Native](https://www.youtube.com/watch?v=GFssmWUhwww)
 - [Video: How to Build an App Splash Screen](https://docs.expo.dev/develop/user-interface/splash-screen/)
 
 #### Tools
+
 - [CodePen: Neumorphism Responsive Navbar](https://codepen.io/siljeangelvik/pen/YzMmJVb?editors=1100)
 - [CodePen: Neumorphism Testing](https://codepen.io/siljeangelvik/pen/GRWrxJR?editors=1100)
 - [CodePen: Neumorphism Color Palette](https://codepen.io/siljeangelvik/pen/ZEZgPxZ?editors=1100)
@@ -51,8 +54,8 @@ Click on the badges below to go to my profiles or contact me via email.
 - [CodePen: Light Mode Neumorphism](https://codepen.io/siljeangelvik/pen/qBwevzq?editors=1100)
 - [Color Inverter](https://colorinverter.imageonline.co/)
 
-
 #### Docs
+
 - [Create React App: Add Stylesheets](https://create-react-app.dev/docs/adding-a-stylesheet/)
 - [React Native: Appearance](https://reactnative.dev/docs/appearance)
 - [React Navigation](https://reactnavigation.org/docs/hello-react-navigation)
@@ -70,33 +73,13 @@ Click on the badges below to go to my profiles or contact me via email.
 - [Expo: Image](https://docs.expo.dev/versions/latest/sdk/image/#component)
 
 #### Next Reads
+
 - [Expo: Layout Routes](https://docs.expo.dev/router/layouts/)
 - [Simple React Card](https://reactjsexample.com/simple-react-card/)
 - [Expo: ViewPager](https://docs.expo.dev/versions/latest/sdk/view-pager/)
 - [GitHub: React Native Pager View](https://github.com/callstack/react-native-pager-view)
 
+### Commands
 
-**Dim Gray**  
-#696969
-**Powder Blue**  
-#A3B1C6
-**French Gray**  
-#BABECC
-**Alice Blue**  
-#E0E5EC
-**Anti-Flash White**  
-#EBECF0
-**Tangelo**  
-#FF4500   
-
-
-**Square Button:**  
-width = 24  
-height = 24  
-b-radius = 5   
-x = -1  
-y = -1  
-blur = 3  
-spread = 0  
-color = #ffffff  
-opacity = 100%
+Check what workflow you're using  
+`npx expo-env-info`

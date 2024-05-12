@@ -9,7 +9,7 @@ import HomeScreen from './src/pages/HomeScreen';
 import AboutScreen from './src/pages/AboutScreen';
 import ProjectsScreen from './src/pages/ProjectsScreen';
 import ContactScreen from './src/pages/ContactScreen';
-import { useFonts } from 'expo-font';
+import {useFonts} from 'expo-font';
 
 const Stack = createStackNavigator();
 
@@ -22,14 +22,14 @@ const App = () => {
     return (
         <SafeAreaProvider>
             <NavigationContainer>
-                <Navbar />
+                <Navbar/>
                 <Stack.Navigator>
                     <Stack.Screen name="Home" component={HomeScreen}/>
                     <Stack.Screen name="About" component={AboutScreen}/>
                     <Stack.Screen name="Projects" component={ProjectsScreen}/>
                     <Stack.Screen name="Contact" component={ContactScreen}/>
                 </Stack.Navigator>
-                <Footer />
+                <Footer/>
             </NavigationContainer>
         </SafeAreaProvider>
     );

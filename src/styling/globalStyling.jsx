@@ -50,11 +50,11 @@ const GlobalStyling = StyleSheet.create({
         color: '#cccccc',
         maxWidth: 120,
         shadowOffset: {
-          width: -1,
-          height: -1,
+            width: -1,
+            height: -1,
         },
         shadowOpacity: 1,
-        shadowRadius:3,
+        shadowRadius: 3,
         elevation: 3,
     }
 });
